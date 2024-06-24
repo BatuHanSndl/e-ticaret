@@ -1,0 +1,67 @@
+#Header {
+    min-height: 100px;
+}
+
+#Header .logo {
+    font-size: 25px;
+}
+
+#Header .right-menu .nav-item {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+#Products .urun-kutu {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Products .urun-card {
+    width: 100%;
+    height: 100%;
+}
+
+#Products .urun-card .card-baslik {
+    height: 100px;
+}
+
+#Products .urun-card .card-resim {
+    height: calc(100% - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#Products .urun-card .card-bilgi {
+    height: 100px;
+}
+
+#Products .urun-card .urun-fiyat {
+    font-size: 20px;
+}
+
+#ProductDetails {
+    height: 866px;
+}
+
+
+#ProductDetails .urun-resim {
+    height: 600px;
+}
+
+#ProductDetails .urun-bilgi {
+    height: 600px;
+}
+
+#ProductDetails .urun-bilgi .yazi {
+    font-size: 20px;
+}
+
+#ProductDetails .urun-bilgi .fiyat {
+    font-size: 35px;
+}
